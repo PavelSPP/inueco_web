@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to bottom, rgb(0, 162, 255), pink);
+}
+
+main {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    height: 300px;
+    border-radius: 3%;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 3%;
+    width: 200px;
+    height: 170px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+
+.flex-row-container {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.flex-row-container > .flex-row-item {
+    flex: 1 1 30%; /*grow | shrink | basis */
+}
+
+.flex-row-item {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px; ;
+}

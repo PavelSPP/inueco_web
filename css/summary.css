@@ -1,0 +1,43 @@
+body {
+    background:url(/img/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-item {
+    color: black !important;
+}
+
+.container {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.block {
+    margin-bottom: 100px;
+    padding-left: 150px;
+    max-width: 55%;
+}
+
+.block h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.block span {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    width: 200px;
+    border-radius: 9%;
+    object-fit: cover;
+}
